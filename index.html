@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Mines Сигналы</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Mines · 1win</h1>
+    <p id="step-indicator">Сигнал 1 из 3</p>
+    <p id="mine-count">Мин: 0</p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <button id="next-btn">ДАЛЕЕ</button>
+
+  <div id="end-screen" class="hidden">
+    <h2>🥵 Бот перегрелся</h2>
+    <p>Подожди пару секунд и начни заново.</p>
+    <button onclick="restart()">НАЧАТЬ ЗАНОВО</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
